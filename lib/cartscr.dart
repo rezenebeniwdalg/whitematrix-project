@@ -1,4 +1,3 @@
-// screens/cart_screen.dart
 import 'package:flutter/material.dart';
 import 'package:whitematrix/cart.dart';
 
@@ -11,9 +10,7 @@ class CartScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Cart'),
-      ),
+      appBar: AppBar(title: Text('Cart')),
       body: Column(
         children: [
           Expanded(
@@ -23,18 +20,18 @@ class CartScreen extends StatelessWidget {
                 final product = cart.items[index];
                 return ListTile(
                   title: Text(product.name),
-                  subtitle: Text('\$${product.price.toStringAsFixed(2)}'),
+                  subtitle: Text('Rs. ${product.price}'),
                   trailing: IconButton(
                     icon: Icon(Icons.remove_circle),
                     onPressed: () {
-                      // Remove from cart
+                      cart.removeProduct(product);
                     },
                   ),
                 );
               },
             ),
           ),
-          Text('Total: \$${cart.totalPrice.toStringAsFixed(2)}'),
+          Text('Total: Rs. ${cart.totalPrice.toStringAsFixed(2)}'),
           ElevatedButton(
             onPressed: () {
               // Proceed to checkout

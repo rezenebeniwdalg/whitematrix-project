@@ -1,4 +1,4 @@
-package com.example.whitematrix
+package com.ebenezer.whitematrixproj
 
 import io.flutter.embedding.android.FlutterActivity
 

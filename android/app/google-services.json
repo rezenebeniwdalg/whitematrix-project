@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "892574083279",
+    "project_id": "whitematrixtest-339be",
+    "storage_bucket": "whitematrixtest-339be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892574083279:android:6443acb7fc00b454cd2fba",
+        "android_client_info": {
+          "package_name": "com.ebenezer.whitematrixproj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892574083279-mnpm870ou7f5hqr18n69l484t75h2v0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxgRGx6pZ4RtO6SS9xEsTdmpKp4MSoxIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892574083279-mnpm870ou7f5hqr18n69l484t75h2v0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
